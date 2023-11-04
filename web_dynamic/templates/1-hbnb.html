@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>1-hbnb</title>
+    <link rel="stylesheet" href="/static/styles.css?cache_id={{ cache_id }}">
+    <link rel="stylesheet" href="/static/main.css?cache_id={{ cache_id }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/static/scripts/1-hbnb.js?cache_id={{ cache_id }}"></script>
+</head>
+<body>
+    <!-- Rest of your HTML content -->
+
+    <div class="amenities">
+        <h2>Amenities</h2>
+        <ul>
+            <li><input type="checkbox" data-id=":amenity_id" data-name=":amenity_name"> Amenity 1</li>
+            <li><input type="checkbox" data-id=":amenity_id" data-name=":amenity_name"> Amenity 2</li>
+            <!-- Add more <li> tags for other amenities -->
+        </ul>
+    </div>
+    
+    <div class="result">
+        <h4>Selected Amenities:</h4>
+        <p id="selected-amenities"></p>
+    </div>
+</body>
+</html>
